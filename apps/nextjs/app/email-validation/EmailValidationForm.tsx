@@ -40,9 +40,7 @@ export function EmailValidationForm() {
             placeholder="Type your email"
             required
           />
-          {isInvalid && (
-            <p className="input__email--error">Error: invalid email</p>
-          )}
+          {isInvalid && <p className="input__email--error">Error: invalid email</p>}
         </div>
         {/* with JS disabled, this button will never be enabled */}
         <button disabled={isInvalid || isEmpty} type="submit">

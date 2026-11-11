@@ -3,12 +3,7 @@ import styles from "./dialog.module.css";
 export default function DialogPage() {
   return (
     <div>
-      <button
-        type="button"
-        command="show-modal"
-        commandfor="my-dialog"
-        className="dialog-btn"
-      >
+      <button type="button" command="show-modal" commandfor="my-dialog" className="dialog-btn">
         Open dialog
       </button>
 
