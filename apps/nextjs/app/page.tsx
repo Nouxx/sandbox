@@ -9,12 +9,7 @@ function LinkComponent({ label }: Readonly<{ label: string }>) {
   );
 }
 
-const routes = [
-  "email-validation",
-  "css-grid-overlay",
-  "hidden-button",
-  "dialog",
-];
+const routes = ["email-validation", "css-grid-overlay", "hidden-button", "dialog", "header"];
 
 export default function Home() {
   return (
