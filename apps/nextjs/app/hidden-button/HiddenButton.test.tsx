@@ -1,5 +1,5 @@
 import { HiddenButton } from "./HiddenButton";
-import { it } from "vitest";
+import { it } from "vite-plus/test";
 import { render, screen } from "@testing-library/react";
 
 it("should test", () => {
