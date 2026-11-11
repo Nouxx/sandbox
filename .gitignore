@@ -1,39 +1,59 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.*
+.pnpm-store/
+
+# Build output
+dist/
+dist-ssr/
+build/
+out/
+*.tsbuildinfo
+
+# Framework artifacts
+.next/
+next-env.d.ts
+.vercel/
+.turbo/
+.vite/
+.astro/
+.svelte-kit/
+.nuxt/
+.output/
+
+# Testing
+coverage/
+
 # Logs
-logs
+logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
-lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
-
-# dotenv environment variable files
+# Environment
 .env
 .env.*
 !.env.example
+*.local
+*.pem
 
-# Editor directories and files
+# Editors (keep shared VS Code config)
 .vscode/*
 !.vscode/settings.json
 !.vscode/extensions.json
-.idea
-.DS_Store
+.idea/
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
 
+# OS
+.DS_Store
+Thumbs.db
+
 # AI agent worktrees
 .claude/worktrees/
-!.vscode/
-!.vscode/settings.json
-!.vscode/extensions.json
-
-# typescript
-*.tsbuildinfo
